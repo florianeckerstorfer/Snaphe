@@ -1,0 +1,14 @@
+#!/usr/bin/php
+<?php
+
+require_once dirname(__FILE__).'/src/Snaphe/Autoload.php';
+Snaphe_Autoload::register();
+
+$cli = new Snaphe_Application_Cli(
+	(isset($_SERVER['SNAPHE_WRAPPER_DIRECTORIES']) 
+		? $_SERVER['SNAPHE_WRAPPER_DIRECTORIES'] 
+		: dirname(__FILE__) . DIRECTORY_SEPARATOR . 'wrappers')
+);
+exit($cli->run(
+		(isset($_SERVER['argv']) ? $_SERVER['argv'] : array())
+));
