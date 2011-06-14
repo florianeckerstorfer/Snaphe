@@ -25,7 +25,6 @@
  */
 
 require_once dirname(dirname(dirname(__FILE__))) . DIRECTORY_SEPARATOR . 'bootstrap.php';
-require_once 'PHPUnit/Framework.php';
 
 /**
  * Tests for {@see Snaphe_Page_Form}.

@@ -25,7 +25,6 @@
  */
 
 require_once dirname(dirname(dirname(__FILE__))) . DIRECTORY_SEPARATOR . 'bootstrap.php';
-require_once 'PHPUnit/Framework.php';
 
 /**
  * Tests for {@see Snaphe_Output_Cli}.
@@ -36,7 +35,6 @@ require_once 'PHPUnit/Framework.php';
  * @author Florian Eckerstorfer <f.eckerstorfer@gmail.com>
  * @link http://snaphe.com Snaphe Web Data Extraction library for PHP.
  * @link http://florianeckerstorfer.com Florian Eckerstorfer
- * @link http://2bepublished.at Development powered by 2bePUBLISHED Internet Services Austria GmbH
  * @license http://www.opensource.org/licenses/mit-license.php MIT License
  */
 class Snaphe_Output_CliTest extends PHPUnit_Framework_TestCase
