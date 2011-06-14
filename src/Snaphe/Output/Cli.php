@@ -28,8 +28,11 @@
  * Generates output in a human readable format optimized for the command line interface.
  *
  * @package com.snaphe.output
+ * @copyright 2011 Florian Eckerstorfer <f.eckerstorfer@gmail.com>
  * @author Florian Eckerstorfer <f.eckerstorfer@gmail.com>
  * @link http://snaphe.com Snaphe Web Data Extraction library for PHP.
+ * @link http://florianeckerstorfer.com Florian Eckerstorfer
+ * @link http://2bepublished.at Development powered by 2bePUBLISHED Internet Services Austria GmbH
  * @license http://www.opensource.org/licenses/mit-license.php MIT License
  */
 class Snaphe_Output_Cli extends Snaphe_Output_Abstract

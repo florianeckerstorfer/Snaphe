@@ -28,8 +28,11 @@
  * Abstract selector class. This class contains generic method which can be used by all or most concrete selectors.
  *
  * @package com.snaphe.selector
+ * @copyright 2011 Florian Eckerstorfer <f.eckerstorfer@gmail.com>
  * @author Florian Eckerstorfer <f.eckerstorfer@gmail.com>
  * @link http://snaphe.com Snaphe Web Data Extraction library for PHP.
+ * @link http://florianeckerstorfer.com Florian Eckerstorfer
+ * @link http://2bepublished.at Development powered by 2bePUBLISHED Internet Services Austria GmbH
  * @license http://www.opensource.org/licenses/mit-license.php MIT License
  */
 abstract class Snaphe_Selector_Abstract implements Snaphe_Selector_Interface
