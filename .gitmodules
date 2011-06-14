@@ -1,6 +1,3 @@
-[submodule "src/JoyPHP"]
-	path = src/JoyPHP
-	url = git://github.com/florianeckerstorfer/JoyPHP.git
 [submodule "src/vendor/JoyPHP"]
 	path = src/vendor/JoyPHP
 	url = git://github.com/florianeckerstorfer/JoyPHP.git
